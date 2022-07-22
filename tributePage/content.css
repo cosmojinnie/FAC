@@ -1,0 +1,39 @@
+body, h3, p {
+  margin: 0;
+}
+header {
+  padding: 0 10px;
+  background-color: #a6a9ac;
+}
+nav ul {
+  margin: 0;
+}
+nav li {
+  margin-left: 10px;
+  float: right;
+  list-style: none;
+}
+nav ul::after {
+  content: '';
+  display: inline-block;
+  clear: both;
+}
+section {
+  padding: 0 10px;
+  background-color: #f3f3ff;
+}
+.wrap_img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.wrap_img img {
+  width: 200px;
+  height: 200px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: #a6a9ac;
+}
