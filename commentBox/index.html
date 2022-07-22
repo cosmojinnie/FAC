@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Gallery</title>
+  <link rel="stylesheet" href="./content.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#content">Content</a></li>
+        <li><a href="https://github.com/cosmojinnie" target="_blank">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="content">
+    <h4>Project Gallery</h4>
+    <div class="wrap_card">
+      <article><h5>Tribute Page</h5><img src="https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png" alt="project thumbnail"><button type="button">show description</button><p class="hide">this is Tribute Page</p></article>
+      <article><h5>Project Gallery</h5><img src="https://lastfm.freetls.fastly.net/i/u/770x0/33b1a6f71816330069bc2e7b2b15eba0.jpg" alt="project thumbnail"><button type="button">show description</button><p class="hide">this is Project Gallery</p></article>
+      <article><h5>Comment Box</h5><img src="https://lastfm.freetls.fastly.net/i/u/770x0/3033d54cebb60fa1867b0d94c5133b3f.jpg" alt="project thumbnail"><button type="button">show description</button><p class="hide">this is Comment Box</p></article>
+    </div>
+  </section>
+  <footer>
+    <p>Created by <a href="https://github.com/cosmojinnie" target="_blank">Jinnie</a></p>
+    <p class="msg"></p>
+    <form action="" id="form">
+      <label for="inputName">Name:</label>
+      <input type="text" id="inputName" name="name"><br>
+      <label for="inputEmail">Email:</label>
+      <input type="text" id="inputEmail" name="email"><br>
+      <label for="inputComment">Comment:</label>
+      <textarea name="comment" id="inputComment" cols="20" rows="10"></textarea>
+      <span>(<span class="cont_length">0</span>/140)</span>
+      <button type="submit" value="Submit">Submit</button>
+    </form>
+    <p class="today"></p>
+  </footer>
+</body>
+<script src="./content.js"></script>
+</html>
