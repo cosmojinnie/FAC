@@ -64,3 +64,15 @@ footer {
   padding: 0 10px;
   background-color: #a6a9ac;
 }
+
+@media screen and (max-width: 375px) {
+  .wrap_card {
+    flex-direction: column;
+  }
+  article {
+    margin: 5px 0 0 0;
+  }
+  article img {
+    max-width: none;
+  }
+}
