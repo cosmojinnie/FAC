@@ -1,0 +1,26 @@
+body, h5, p {
+  margin: 0;
+}
+body {
+  padding: 10px;
+}
+.fruit_shop {
+  display: flex;
+  margin-bottom: 20px;
+}
+.fruit_item {
+  margin-left: 20px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.fruit_name {
+  margin-bottom: 10px;
+}
+.count {
+  display: table;
+}
+.fruit_item:first-child {
+  margin-left: 0;
+}
