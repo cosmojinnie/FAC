@@ -1,0 +1,56 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+.wrap_imageSlider {
+  position: relative;
+}
+.item_image {
+  width: 300px;
+  height: 100%;
+  display: none;
+}
+.wrap_btns button {
+  position: absolute;
+}
+.play_btn, .pause_btn, .before_btn, .next_btn {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.play_btn, .pause_btn  {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.before_btn {
+  left: 0;
+}
+.next_btn {
+  right: 0;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+button {
+  padding: 0;
+  background-color: initial;
+  border: none;
+}
+.wrap_dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.item_dot {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.item_dot[data-active="true"] {
+  background-color: black;
+}

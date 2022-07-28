@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feature</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="./content.css" />
+</head>
+<body>
+  <div class="wrap_imageSlider">
+    <div class="wrap_images">
+      <img src="./assets/number-1.jpg" alt="image number 1" class="item_image show">
+      <img src="./assets/number-2.jpg" alt="image number 2" class="item_image">
+      <img src="./assets/number-3.jpg" alt="image number 3" class="item_image">
+    </div>
+    <div class="wrap_btns">
+      <button type="button" value="play" onclick="setPlay()" class="material-symbols-outlined play_btn" data-active="true">pause_circle</button>
+      <button type="button" class="material-symbols-outlined before_btn" onclick="before()">navigate_before</button>
+      <button type="button" class="material-symbols-outlined next_btn" onclick="next()">navigate_next</button>
+    </div>
+    <div class="wrap_dots">
+      <button type="button" class="item_dot" data-active="true"></button>
+      <button type="button" class="item_dot" data-active="false"></button>
+      <button type="button" class="item_dot" data-active="false"></button>
+    </div>
+  </div>
+</body>
+<script src="./content.js"></script>
+</html>
